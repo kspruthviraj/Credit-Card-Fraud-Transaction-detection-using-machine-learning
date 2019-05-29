@@ -19,7 +19,7 @@ ADASYN (ADAptive SYNthetic) is an [oversampling technique](https://www.datascien
 
 **Conculsion**
 
-It is also noteworthy that it is common to use classification accuracy as a first measure to judge classifier performance, but when the classes are as imbalanced as in the case of credit card data, accuracy measures are misleading because they may just reflect the underlying class distribution even if the true accuracy is higher. It is better to consider sensitivity (recall) and specificity that give more insight into the classifier performance.
+It is common to use classification accuracy as a first measure to judge classifier performance, but when the classes are as imbalanced as in the case of credit card data, accuracy measures are misleading because they may just reflect the underlying class distribution even if the true accuracy is higher. It is better to consider sensitivity (recall) and specificity that give more insight into the classifier performance.
 
 For instance, if the true fraud credit card transaction is classified as false, then is is a huge loss for banks and customers. However, if the true transaction was classified as fraud, eventhough it is not favorable, atleast banks won't lose money. Therefore, more weightage should be given to detect fraud transaction as fraud i.e True positives with higher accuracy i.e. higher recall/sensitivity is favorable.
 
